@@ -226,7 +226,7 @@ int main(int argc,char** argv)
 
   node_options.automatically_declare_parameters_from_overrides(true);
 
-  auto node_ptr = std::make_shared<rclcpp::Node>("ur5_hardware_interface",node_options);
+  auto node_ptr = std::make_shared<rclcpp::Node>("orangewood_interface",node_options);
 
   rclcpp::executors::MultiThreadedExecutor executor;
   executor.add_node(node_ptr);
