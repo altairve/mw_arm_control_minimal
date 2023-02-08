@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>mw_arm_control_minimal</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="safarve@gmail.com">altair</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>moveit_common</build_depend>
+
+
+  <depend>std_srvs</depend>
+  <depend>interactive_markers</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_perception</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_servo</depend>
+  <depend>moveit_visual_tools</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+  <depend>moveit_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>rcpputils</depend>
+  <depend>ros2bag</depend>
+  <depend>rosbag2</depend>
+  <depend>gazebo_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>builtin_interfaces</depend>
+  <depend>custom_traj_interface</depend>
+  <test_depend>ros2bag</test_depend>
+
+ <depend>rosbag2_compression</depend>
+ <depend>rosbag2_compression_zstd</depend>
+ <depend>rosbag2_cpp</depend>
+ <depend>rosbag2_storage_default_plugins</depend>
+ <depend>rosbag2_storage</depend>
+  <!-- <depend>pluginlib</depend> -->
+  <depend>rosbag</depend>
+
+
+  <build_depend>eigen</build_depend>
+  <build_depend>geometric_shapes</build_depend>
+  <build_depend>moveit_common</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+
+  
+  
+
+
+ <build_depend>rosidl_default_generators</build_depend>
+
+<exec_depend>rosidl_default_runtime</exec_depend>
+
+<member_of_group>rosidl_interface_packages</member_of_group>
+  <exec_depend>xacro</exec_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+
+</package>
